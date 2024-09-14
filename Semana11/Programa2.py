@@ -22,5 +22,5 @@ mostrar_matriz(matriz)
 fila_a_ordenar=0# fila que deseo ordenar de manera ascendente
 matriz[fila_a_ordenar]=bubble_sort(matriz[fila_a_ordenar])#llamo a la funcion burbuja para ordenar la fila designada, luego regreso la fila ordenada a su posicion inicial en la matriz sin ordenar
 
-print("matriz con la fila 1 ordenada")
+print("matriz con la fila", fila_a_ordenar, "ordenada")
 mostrar_matriz(matriz)

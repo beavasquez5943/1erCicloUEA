@@ -65,7 +65,7 @@ def calcular_promedio_temperaturas(datos, nombres_ciudades):
             total_temp += sum([dia["temp"] for dia in semana])  # Sumar todas las temperaturas de la semana
             total_dias += len(semana)  # Contar los días en la semana
 
-        # Calcular el promedio de la ciudad
+        # Calcular el promedio de CADA ciudad
         promedio_ciudad = total_temp / total_dias
         promedios[nombres_ciudades[c_i]] = promedio_ciudad
 
